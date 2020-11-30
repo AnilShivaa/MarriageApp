@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Marriage checker App</title>
+</head>
+
+<body bgcolor="yellow">
+ 
+ 
+ <script type="text/javascript" src="JS/Validation.js">
+ </script>
+ 
+ <h2 style="color:red; text-align:center">Check whether you are eligible to marriage or not ?</h2>
+ <center>
+	 <img src="images/m.jpeg">
+ </center>
+ 	
+<form action="msurl" method="POST" onsubmit="return vali(this)">
+
+<table bgcolor="cyan" align="center" style="width:400px;height:130px">
+	
+<tr>
+	<td>Person Name::</td>
+	<td><input type="text" name="pname"  ></td>
+</tr>
+
+<tr>
+	<td>Person Age::</td>
+	<td><input type="text" name="age"  ></td>
+</tr>
+
+<tr>
+	<td>Person gender::</td>
+	<td>
+		<input type="radio" name="gender" value="Male">Male
+		<input type="radio" name="gender" value="Female" checked>Female
+	</td>
+</tr>
+
+<tr>
+	<td><input type="submit" value="Check Marriage Egilibility"></td>
+	<td><input type="reset" value="Cancel"></td>
+</tr>
+	
+</table>
+
+</form> 	
+ 	
+	
+ 	 	
+</body>
+</html>

@@ -1,0 +1,19 @@
+<web-app>  
+  
+<servlet>  
+<servlet-name>ms</servlet-name>  
+<servlet-class>com.anil.servlet.MarriageServlet</servlet-class>  
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>ms</servlet-name>  
+<url-pattern>/msurl</url-pattern>  
+</servlet-mapping>  
+
+<!-- welcome/landing page file conf -->
+
+<welcome-file-list>
+	<welcome-file>input.html</welcome-file>
+</welcome-file-list>
+  
+</web-app>  
